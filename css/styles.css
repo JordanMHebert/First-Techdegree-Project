@@ -1,4 +1,32 @@
 
+.perspective{
+  perspective: 90em;
+}
+
+.threeDPicRight1{
+  transform: rotateY(1deg);
+}
+
+.threeDPicLeft1{
+  transform: rotateY(-1deg);
+}
+
+.threeDPicRight{
+  transform: rotateY(6deg);
+}
+
+.threeDPicLeft{
+  transform: rotateY(-6deg);
+}
+
+.threeDPicX{
+  transform: rotateX(-5deg);
+}
+
+.threeDPicX2{
+  transform: rotateX(3deg);
+}
+
 .logoImage{
   max-width: 5em;
 }
@@ -20,8 +48,31 @@
   letter-spacing: 2px;
 }
 
+#title{
+  letter-spacing: 1px;
+  color: #21295C;
+}
+
+#title2{
+  color: #255C99;
+}
+
+#title3{
+  color: #AD343E;
+}
+
 #hobbieImage{
-width: 17em;
+max-width: 20em;
+box-shadow: 10px 5px 5px #343a40;
+}
+
+#hobbieImage2{
+max-width: 19em;
+box-shadow: 10px 5px 5px #343a40;
+}
+
+#hobbieImageBoxShadow{
+  box-shadow: 10px 5px 5px #343a40;
 }
 
 /* footer */
@@ -48,7 +99,8 @@ footer .copyright {
   margin-right: 1.25em;
   font-size: 1em;
   font-style: italic;
-  color: white;
+  color: #FFFBFC;
+  letter-spacing: 1px;
 }
 
 footer .copyright2 {
@@ -56,7 +108,8 @@ footer .copyright2 {
   margin-right: 1.25em;
   font-size: 1em;
   font-style: italic;
-  color: white;
+  color: #FFFBFC;
+  letter-spacing: 1px;
 }
 
 

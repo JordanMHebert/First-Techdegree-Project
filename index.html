@@ -23,7 +23,7 @@
 <!-- /head -->
 
 <!-- body tag -->
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="200">
+<body id="home" class="perspective" data-spy="scroll" data-target=".navbar" data-offset="200">
 
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -66,30 +66,30 @@
 	<!-- main section -->
 	<main class="flex mt-5">
 
-		<div class="container">
+		<div class="container perspective">
 
 			<!-- 1st section -->
 			<h2 class="card-title text-center display-4">Background</h2>
 			<div class="row my-3">
 				<div class="col">
 					<h3 class="writing mt-5">Home Town:</h3>
-					<img src="img/KeeneNH.jpg" class="img-fluid my-3 mx-auto d-block" alt="Keene NH" />
+					<img src="img/KeeneNH.jpg" class="img-fluid threeDPicLeft1 my-3 mx-auto d-block" alt="Keene NH" />
 					<p class="nameOfLanguge writing text-center"> Keene NH </p>
 				</div>
 				<div class="col">
 					<h3 class="writing mt-5">Lives In:</h3>
-					<img src="img/RichmondVT.jpg" class="img-fluid mx-auto my-3 d-block" alt="Richmond VT" />
+					<img src="img/RichmondVT.jpg" class="img-fluid threeDPicRight1 mx-auto my-3 d-block" alt="Richmond VT" />
 					<p class="nameOfLanguge writing text-center"> Richmond VT </p>
 				</div>
 				<div class="w-100"></div>
 				<div class="col">
 					<h3 class="writing mt-5">Date of Birth:</h3>
-					<img src="img/winter.jpg" class="img-fluid mx-auto my-3 d-block" alt="winter" />
+					<img src="img/winter.jpg" class="img-fluid threeDPicX mx-auto my-3 d-block" alt="winter" />
 					<p class="nameOfLanguge writing text-center"> January 23, 1989 </p>
 				</div>
 				<div class="col">
 					<h3 class="writing mt-5">Started Coding In:</h3>
-					<img src="img/coding.png" class="img-fluid mx-auto my-3 d-block computer" alt="coding" />
+					<img src="img/coding.png" class="img-fluid  mx-auto my-3 d-block computer" alt="coding" />
 					<p class="nameOfLanguge writing text-center"> September 2019 </p>
 				</div>
 			</div>
@@ -98,13 +98,13 @@
 			<hr class="bg-dark my-4" />
 
 			<!-- fluid image -->
-			<div class="container my-5">
+			<div class="container perspective my-5">
 				<div class="row">
 					<div class="col">
-						<img src="img/webdesign.jpg" class="img-fluid computer " alt="picture of computer" />
+						<img src="img/webdesign.jpg" class="img-fluid threeDPicRight computer " alt="picture of computer" />
 					</div>
 					<div class="col">
-						<img src="img/website.png" class="img-fluid " alt="picture of various websites" />
+						<img src="img/website.png" class="img-fluid threeDPicLeft" alt="picture of various websites" />
 					</div>
 				</div>
 			</div>
@@ -115,13 +115,16 @@
 			<!-- 2nd section -->
 			<div class="row my-5">
 				<div class="col">
-					<h2 class="text-center display-4">Coding Languages</h2>
+					<h2 class="text-center display-4" id="title3">Coding Languages</h2>
 					<p class="text-center writing mt-5">
 						In my training to become a Front-End Web Developer, I have learned the following coding languages and programs.
 					</p>
 				</div>
 
+
 				<div class="container my-5">
+
+					<!-- row 1 -->
 					<div class="row">
 						<div class="col">
 							<img src="img/HTML5.png" class="img-fluid logoImage mx-auto d-block" alt="HTML Logo" />
@@ -140,8 +143,9 @@
 							<p class="nameOfLanguge text-center"> JavaScript </p>
 						</div>
 					</div>
+					<!-- /row 1 -->
 
-
+				<!-- row 2 -->
 					<div class="row">
 						<div class="col">
 						<img src="img/jquery.png" class="img-fluid logoImage3 mx-auto mt-5 d-block" alt="jQuery Logo" />
@@ -160,6 +164,30 @@
 							<p class="nameOfLanguge text-center"> Github </p>
 						</div>
 					</div>
+					<!--  /row2 -->
+
+					<!-- row 3 -->
+					<div class="row">
+						<div class="col">
+						<img src="img/Atom.jpg" class="img-fluid logoImage mx-auto mt-5 d-block"  alt="Atom Logo" />
+						<p class="nameOfLanguge text-center"> Atom </p>
+					</div>
+						<div class="col">
+							<img src="img/figma.png" class="img-fluid logoImage mx-auto mt-5 d-block" alt="Figma Logo" />
+							<p class="nameOfLanguge text-center"> Figma </p>
+						</div>
+						<div class="col">
+							<img src="img/Prepros.png" class="img-fluid logoImage mx-auto mt-5 d-block" alt="Prepros Logo" />
+							<p class="nameOfLanguge text-center"> Prepros</p>
+						</div>
+						<div class="col">
+							<img src="img/GithubBash.png" class="img-fluid logoImage mx-auto mt-5 d-block" alt="Github Bash Logo" />
+							<p class="nameOfLanguge text-center"> Github Bash </p>
+						</div>
+					</div>
+
+					<!-- /row 3 -->
+
 					<p class="text-center writing mt-5"> Upon completing the Front End Web Development Techdegree program at Treehouse, I plan to launch my career as a Front End Web Developer.</p>
 				</div>
 			</div>
