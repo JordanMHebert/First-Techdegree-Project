@@ -83,6 +83,25 @@ box-shadow: 10px 5px 5px #343a40;
   box-shadow: 10px 5px 5px #343a40;
 }
 
+.sizeMe{
+  max-width: 95%;
+  max-height: 57em;
+  margin: auto;
+}
+
+#caption{
+  background-color: rgba(52, 58, 64, 0.7);
+  max-width: 50em;
+  height: 5em;
+  margin: auto;
+}
+
+#captionText{
+  letter-spacing: 1.2px;
+  color: #FFFBFC;
+  margin-top: -.5em;
+}
+
 /* footer */
 footer {
   width: 100%;
