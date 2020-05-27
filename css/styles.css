@@ -85,8 +85,8 @@ box-shadow: 10px 5px 5px #343a40;
 }
 
 .sizeMe{
-  max-width: 90%;
-  max-height: 38em;
+  max-width: 93%;
+  max-height: 39em;
   margin: auto;
 }
 
@@ -114,6 +114,7 @@ footer {
 .twitter,
 .linkedin,
 .github,
+.Instagram,
 .facebook {
   max-width: 3.8em;
   margin: auto;
