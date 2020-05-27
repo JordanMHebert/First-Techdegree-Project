@@ -66,7 +66,8 @@
 }
 
 #title4{
-  color: #3E5C76;
+  color: #23395B;
+  font-family: 'Playfair Display', serif;
 }
 
 #hobbieImage{
@@ -84,8 +85,8 @@ box-shadow: 10px 5px 5px #343a40;
 }
 
 .sizeMe{
-  max-width: 95%;
-  max-height: 57em;
+  max-width: 90%;
+  max-height: 38em;
   margin: auto;
 }
 
