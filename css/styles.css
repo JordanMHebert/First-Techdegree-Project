@@ -39,8 +39,8 @@
   max-width: 10em;
 }
 
-.landingImage{
-  max-width: 50em;
+#landingImage{
+  max-width: 70%;
 }
 
 .nameOfLanguge{
