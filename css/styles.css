@@ -39,6 +39,10 @@
   max-width: 10em;
 }
 
+.landingImage{
+  max-width: 50em;
+}
+
 .nameOfLanguge{
   margin-left: 1em;
   font-weight: bold;
