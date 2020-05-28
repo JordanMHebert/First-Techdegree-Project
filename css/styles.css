@@ -40,8 +40,14 @@
 }
 
 #landingImage{
-  max-width: 70%;
+  max-width: 35%;
 }
+
+.treehouseLink{
+  max-width: 90%;
+  margin-top: -2.8em;
+}
+
 
 .nameOfLanguge{
   margin-left: 1em;
@@ -54,6 +60,11 @@
 
 .writing2{
   letter-spacing: 1.2px;
+}
+
+.contactContainer{
+  max-width: 52%;
+  margin: auto;
 }
 
 #title{
