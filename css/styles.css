@@ -27,12 +27,14 @@
   transform: rotateX(3deg);
 }
 
+/* logo images */
+
 .logoImage{
   max-width: 5em;
 }
 
 .logoImage2{
-  max-width: 4em;
+  max-width: 3.7em;
 }
 
 .logoImage3{
